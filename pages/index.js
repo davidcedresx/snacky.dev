@@ -29,7 +29,7 @@ export default function landing () {
           <div>
             <h3>Ignis Gravitas</h3>
             <p>
-              I was part of a team responsible of the manteinance of an entrepenurship platform, building tools that would help clients build MVPs.
+              I was part of a team responsible of the maintenance of an entrepreneurship platform, building tools that would help clients build MVPs.
               ‍   I worked with Ruby on Rails and React.
           </p>
           </div>
@@ -37,13 +37,12 @@ export default function landing () {
             <h3>Novateva</h3>
             <p>
               In this software agency I built mobile apps and web platforms, using NodeJS, Express, React, Python, Apollo, GraphQL and React Native.
-
           </p>
           </div>
           <div>
             <h3>Pathscale</h3>
             <p>
-              I currently work here, I have been part of a team responsible for the development of an open source UI library for vue3, a browser game, several rollup plugins that are used internally, the mantainance of several JS packages on npm, as well as the optimization of code that is critical to the products we build.
+              I currently work here, I have been part of a team responsible for the development of an open source UI library for vue3, a browser game, several rollup plugins that are used internally, the maintenance of several JS packages on npm, as well as the optimization of code that is critical to the products we build.
           </p>
           </div>
         </section>
