@@ -29,14 +29,15 @@ export default function landing () {
           <div>
             <h3>Ignis Gravitas</h3>
             <p>
-              I was part of a team responsible of the maintenance of an entrepreneurship platform, building tools that would help clients build MVPs.
-              ‍   I worked with Ruby on Rails and React.
+              I was part of a team responsible of the maintenance of an entrepreneurship platform, building tools that would help clients build MVPs and bring ideas to life.
+              ‍<br />
+              I worked with Ruby on Rails and React.
           </p>
           </div>
           <div>
             <h3>Novateva</h3>
             <p>
-              In this software agency I built mobile apps and web platforms, using NodeJS, Express, React, Python, Apollo, GraphQL and React Native.
+              As part of a softwre agency I built mobile apps and web platforms, using NodeJS, Express, React, Python, Apollo, GraphQL and React Native.
           </p>
           </div>
           <div>
@@ -48,7 +49,6 @@ export default function landing () {
         </section>
         <section>
           <h2>Projects</h2>
-
           <p>I will be working on some side projects to put here!</p>
         </section>
       </div>
@@ -150,9 +150,7 @@ export default function landing () {
 
         .copyright {
           font-size: 14px;
-
         }
-
       `}</style>
     </div>
   )
