@@ -25,3 +25,9 @@ fields:
     maxSize: 64
   label: picture
   description: cover image for the post
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+  description: Post title
