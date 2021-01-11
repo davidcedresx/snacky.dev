@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function landing () {
+export default function landing() {
   return (
     <div>
       <Head>
@@ -55,16 +55,13 @@ export default function landing () {
 
       <footer>
         <div className="container">
-          <div className="row">
-            <div className="col-xs-offset-9 col-xs-3">
-              <h4>Links</h4>
-              <ul>
-                <li><a href="https://www.linkedin.com/in/david-cedr%C3%A9s-39b458176/" className="footer-link">Linkedin</a></li>
-                <li><a href="https://github.com/davidcedresx" className="footer-link">Github</a></li>
-                <li><a href="https://dev.to/davidcedresx" className="footer-link">Dev</a></li>
-                <li><a href="http://twitter.com/davidcedresx" className="footer-link">Twitter</a></li>
-              </ul>
-            </div>
+          <div className="row center-xs">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/david-cedr%C3%A9s-39b458176/" className="footer-link">Linkedin</a></li>
+              <li><a href="https://github.com/davidcedresx" className="footer-link">Github</a></li>
+              <li><a href="https://dev.to/davidcedresx" className="footer-link">Dev</a></li>
+              <li><a href="http://twitter.com/davidcedresx" className="footer-link">Twitter</a></li>
+            </ul>
           </div>
           <div className="row center-xs copyright">
             <p>Copyright © 2021 David Cedrés. All rights reserved.</p>
@@ -135,21 +132,25 @@ export default function landing () {
           font-weight: 500;
         }
 
+        footer {
+          font-size: 14px;
+          margin-top: 32px;
+        }
+
         ul {
           padding-left: 0;
           list-style: none;
         }
 
+        ul li {
+          display: inline-block;
+          padding: 0 16px;
+        }
+
         ul li a {
-          display: block;
           margin-bottom: 10px;
           color: #444;
           text-decoration: none;
-          font-size: 14px;
-        }
-
-        .copyright {
-          font-size: 14px;
         }
       `}</style>
     </div>
