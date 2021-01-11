@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function landing() {
+export default function landing () {
   return (
     <div>
       <Head>
