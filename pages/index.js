@@ -37,7 +37,7 @@ export default function landing() {
           <div>
             <h3>Novateva</h3>
             <p>
-              As part of a softwre agency I built mobile apps and web platforms, using NodeJS, Express, React, Python, Apollo, GraphQL and React Native.
+              As part of a software agency I built mobile apps and web platforms, using NodeJS, Express, React, Python, Apollo, GraphQL and React Native.
           </p>
           </div>
           <div>
