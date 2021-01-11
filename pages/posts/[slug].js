@@ -24,7 +24,7 @@ export default function Post ({ post }) {
         <nav>
             <div className="container">
                 <Link href="/">
-                    <a>Blog</a>
+                    <a>Home</a>
                 </Link>
             </div>
         </nav>

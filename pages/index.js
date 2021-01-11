@@ -1,6 +1,8 @@
+import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
+import Link from 'next/link'
 
-export default function landing () {
+export default function landing ({ posts }) {
   return (
     <div>
       <Head>
@@ -50,6 +52,16 @@ export default function landing () {
         <section>
           <h2>Projects</h2>
           <p>I will be working on some side projects to put here!</p>
+        </section>
+        <section>
+          <h2>Posts</h2>
+          {posts.map(post => (
+            <div key={post.slug}>
+              <Link href={`/posts/${post.slug}`}>
+                <h3 className="post-link">{post.title}</h3>
+              </Link>
+            </div>
+          ))}
         </section>
       </div>
 
@@ -152,7 +164,21 @@ export default function landing () {
           color: #444;
           text-decoration: none;
         }
+
+        .post-link {
+          cursor: pointer;
+        }
       `}</style>
     </div>
   )
+}
+
+export async function getStaticProps ({ params }) {
+  const posts = getAllPosts(['slug', 'title'])
+
+  return {
+    props: {
+      posts
+    }
+  }
 }
