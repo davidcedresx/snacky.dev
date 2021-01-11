@@ -1,0 +1,23 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
+  description: url for the blog post
+- name: date
+  type: datetime
+  label: date
+  description: date the blog post was created
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
+pages:
+- posts/hello-snackers.md
