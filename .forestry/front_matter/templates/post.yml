@@ -37,4 +37,5 @@ fields:
     required: true
   label: picture_credit
 pages:
+- _posts/building-a-blog-in-a-single-day.md
 - _posts/side-projects.md
