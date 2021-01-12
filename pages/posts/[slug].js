@@ -40,9 +40,7 @@ export default function Post ({ post }) {
 
         </article>
 
-        <div className="credit container">
-            <span>Photo by <a href="https://unsplash.com/@ryanquintal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ryan Quintal</a> on <a href="https://unsplash.com/s/photos/snacks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-        </div>
+        <div className="credit container" dangerouslySetInnerHTML={{ __html: post.image_credit }} />
 
         <style jsx>{`
             .back-arrow {
