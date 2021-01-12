@@ -15,31 +15,29 @@ export default function Footer () {
                 </div>
             </div>
 
-            <style jsx>{`
-                
+            <style jsx global>{`
             footer {
-          font-size: 14px;
-          margin-top: 32px;
-          background-color: #eef6ff;
-        }
+              font-size: 14px;
+              margin-top: 32px;
+              background-color: #eef6ff;
+            }
 
-        ul {
-          padding-left: 0;
-          list-style: none;
-        }
+            ul {
+              padding-left: 0;
+              list-style: none;
+            }
 
-        ul li {
-          display: inline-block;
-          padding: 0 16px;
-        }
+            ul li {
+              display: inline-block;
+              padding: 0 16px;
+            }
 
-        ul li a {
-          margin-bottom: 10px;
-          color: #444;
-          text-decoration: none;
-        }
-
-                `}</style>
+            ul li a {
+              margin-bottom: 10px;
+              color: #444;
+              text-decoration: none;
+            }
+          `}</style>
         </footer>
   )
 }
