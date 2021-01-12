@@ -31,5 +31,10 @@ fields:
     required: false
   label: title
   description: Post title
+- name: picture_credit
+  type: text
+  config:
+    required: true
+  label: picture_credit
 pages:
 - _posts/side-projects.md
