@@ -1,7 +1,7 @@
 ---
 date: 2021-01-12T05:21:35.000+00:00
 slug: side-projects
-picture: "/v1610435803/snacky.dev/photo-1516259762381-22954d7d3ad2_eiiva9.jpg"
+picture: https://res.cloudinary.com/djavoiqhp/image/upload/v1610435803/snacky.dev/photo-1516259762381-22954d7d3ad2_eiiva9.jpg
 title: Side Projects
 picture_credit: <span>Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus
   Spiske</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
