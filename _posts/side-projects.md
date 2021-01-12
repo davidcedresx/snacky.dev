@@ -11,7 +11,7 @@ My porfolio is mostly empty, I have done some side and academic projects in the 
 
 ## New projects to put into my pocket
 
-I came across \[this post\]([https://dev.to/hb/7-fullstack-projects-you-need-to-make-in-2021-bdn](https://dev.to/hb/7-fullstack-projects-you-need-to-make-in-2021-bdn "https://dev.to/hb/7-fullstack-projects-you-need-to-make-in-2021-bdn")) recently and decided to give it a try.
+I came across (this post)\[[https://dev.to/hb/7-fullstack-projects-you-need-to-make-in-2021-bdn](https://dev.to/hb/7-fullstack-projects-you-need-to-make-in-2021-bdn "https://dev.to/hb/7-fullstack-projects-you-need-to-make-in-2021-bdn")\] recently and decided to give it a try.
 
 The first project I decided to go with was the blog, you are currently in it, I'll keep tweaking it until I decide it's good enough and then move to my next project: a chat app.
 
@@ -33,4 +33,4 @@ I just followed the instructions, after reading the NextJS official docs and saw
 
 This was really new to me, as a freelancer it's common to see job listings for wordpress, shopify and other content managers but I never really decided to learn that stuff, this time I was in need of it, but I already had a fully custom solution which I coded myself so I just wanted something that could handle the data and not a wyswyg kind of editor.
 
-\[This list\]([https://www.g2.com/categories/headless-cms](https://www.g2.com/categories/headless-cms "https://www.g2.com/categories/headless-cms")) helped me see some of the options available and after seeing the oficcial examples on the NextJS github repo, I decided \[forestry\]([https://forestry.io/](https://forestry.io/ "https://forestry.io/")) would fit my needs, it was fairly simple to integrate and since it's git based gihtub will continue to serve as my hosting.
+(This list)\[[https://www.g2.com/categories/headless-cms](https://www.g2.com/categories/headless-cms "https://www.g2.com/categories/headless-cms")\] helped me see some of the options available and after seeing the oficcial examples on the NextJS github repo, I decided (forestry)\[[https://forestry.io/](https://forestry.io/ "https://forestry.io/")\] would fit my needs, it was fairly simple to integrate and since it's git based gihtub will continue to serve as my hosting.
