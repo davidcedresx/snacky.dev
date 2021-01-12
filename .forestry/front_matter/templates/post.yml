@@ -31,3 +31,5 @@ fields:
     required: false
   label: title
   description: Post title
+pages:
+- _posts/side-projects.md
