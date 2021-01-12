@@ -40,7 +40,7 @@ export default function Post ({ post }) {
 
         </article>
 
-        <div className="credit container" dangerouslySetInnerHTML={{ __html: post.image_credit }} />
+        <div className="credit container" dangerouslySetInnerHTML={{ __html: post.picture_credit }} />
 
         <style jsx>{`
             .back-arrow {
@@ -90,7 +90,8 @@ export async function getStaticProps ({ params }) {
     // 'date',
     'slug',
     'content',
-    'picture'
+    'picture',
+    'picture_credit'
   ])
   const content = await markdownToHtml(post.content || '')
 

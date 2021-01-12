@@ -1,14 +1,21 @@
-import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function landing ({ posts }) {
+export default function landing () {
   return (
     <div>
       <Head>
         <title>David Cedrés</title>
         <link rel="icon" href="/pizza.svg" />
       </Head>
+
+      <nav>
+        <div className="container">
+            <Link href="/blog">
+                <a>Blog</a>
+            </Link>
+        </div>
+      </nav>
 
       <header>
         <div className="container">
@@ -53,33 +60,7 @@ export default function landing ({ posts }) {
           <h2>Projects</h2>
           <p>I will be working on some side projects to put here!</p>
         </section>
-        <section>
-          <h2>Posts</h2>
-          {posts.map(post => (
-            <div key={post.slug}>
-              <Link href={`/posts/${post.slug}`}>
-                <h3 className="post-link">{post.title}</h3>
-              </Link>
-            </div>
-          ))}
-        </section>
       </div>
-
-      <footer>
-        <div className="container">
-          <div className="row center-xs">
-            <ul>
-              <li><a href="https://www.linkedin.com/in/david-cedr%C3%A9s-39b458176/" className="footer-link">Linkedin</a></li>
-              <li><a href="https://github.com/davidcedresx" className="footer-link">Github</a></li>
-              <li><a href="https://dev.to/davidcedresx" className="footer-link">Dev</a></li>
-              <li><a href="http://twitter.com/davidcedresx" className="footer-link">Twitter</a></li>
-            </ul>
-          </div>
-          <div className="row center-xs copyright">
-            <p>Copyright © 2021 David Cedrés. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
 
       <style jsx>{`
         footer, header { 
@@ -144,41 +125,12 @@ export default function landing ({ posts }) {
           font-weight: 500;
         }
 
-        footer {
-          font-size: 14px;
-          margin-top: 32px;
-        }
-
-        ul {
-          padding-left: 0;
-          list-style: none;
-        }
-
-        ul li {
-          display: inline-block;
-          padding: 0 16px;
-        }
-
-        ul li a {
-          margin-bottom: 10px;
-          color: #444;
+        nav a {
           text-decoration: none;
-        }
-
-        .post-link {
-          cursor: pointer;
+          color: #333;
+          font-size: 1.5em;
         }
       `}</style>
     </div>
   )
-}
-
-export async function getStaticProps ({ params }) {
-  const posts = getAllPosts(['slug', 'title'])
-
-  return {
-    props: {
-      posts
-    }
-  }
 }
