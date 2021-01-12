@@ -14,30 +14,6 @@ export default function Footer () {
                     <p>Copyright © 2021 David Cedrés. All rights reserved.</p>
                 </div>
             </div>
-
-            <style jsx global>{`
-            footer {
-              font-size: 14px;
-              margin-top: 32px;
-              background-color: #eef6ff;
-            }
-
-            ul {
-              padding-left: 0;
-              list-style: none;
-            }
-
-            ul li {
-              display: inline-block;
-              padding: 0 16px;
-            }
-
-            ul li a {
-              margin-bottom: 10px;
-              color: #444;
-              text-decoration: none;
-            }
-          `}</style>
         </footer>
   )
 }
