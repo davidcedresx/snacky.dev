@@ -37,12 +37,6 @@ export default function landing ({ posts }) {
 
       <style jsx>{`
         header {
-          align-items: center;
-          align-items: center;
-          display: block;
-          display: flex;
-          flex-direction: row;
-          flex: 1;
           padding-top: 36px;
           background-color: #eef6ff;
           padding-bottom: 36px;
@@ -68,7 +62,7 @@ export default function landing ({ posts }) {
 }
 
 export async function getStaticProps ({ params }) {
-  const posts = getAllPosts(['slug', 'title', 'picture'])
+  const posts = getAllPosts(['slug', 'title', 'picture', 'date'])
 
   return {
     props: {

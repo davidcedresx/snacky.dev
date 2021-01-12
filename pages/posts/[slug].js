@@ -23,8 +23,8 @@ export default function Post ({ post }) {
 
         <nav>
             <div className="container">
-                <Link href="/">
-                    <a>Home</a>
+                <Link href="/blog">
+                    <a>Blog</a>
                 </Link>
             </div>
         </nav>

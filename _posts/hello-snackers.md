@@ -1,14 +1,20 @@
 ---
 date: 2021-01-11T04:28:46.000+00:00
-title: First entry
+title: Hello Blog
 slug: hello-snackers
 picture: https://res.cloudinary.com/djavoiqhp/image/upload/v1610436100/snacky.dev/ryan-quintal-GEpzcRu5QGA-unsplash_chnimx.jpg
 picture_credit: <span>Photo by <a href="https://unsplash.com/@ryanquintal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ryan
   Quintal</a> on <a href="https://unsplash.com/s/photos/snacks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 ---
-# Hello snackers
+# Welcome to my blog
 
 I decided to have my own site, it's powered by NextJS, Vercel and Forestry as CMS.
 
-The reason for the name it's that I get snacky when I code, which means I get hungry for snacks, I don't like my name enough as to use it as a domain name anyway.
+Coming up with the domain name was a bit hard, it's very easy to come up with your own name, but I don't like mine enough.
+
+The snacky thing comes from *Brooklyn 99* TV show, in one episode of season 1, detective Jake Peralta said he gets snacky and I that word sticked to me.
+
+When I'm coding and I get stucked I take a break and have some snacks, and so I called my blog snacky.dev!
+
+I'll be focusing on building some side projects to put into my portfolio which is pretty dead right now.

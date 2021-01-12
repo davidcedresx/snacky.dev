@@ -63,20 +63,10 @@ export default function landing () {
       </div>
 
       <style jsx>{`
-        footer, header { 
-          background-color: #eef6ff;
-        }
-
         header {
-          align-items: center;
-          align-items: center;
-          display: block;
-          display: flex;
-          flex-direction: row;
-          flex: 1;
           padding-top: 36px;
-          padding-bottom: 36px;
-        }
+          background-color: #eef6ff;
+          padding-bottom: 36px;        }
 
         img {
           border-radius: 100%;
