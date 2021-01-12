@@ -27,7 +27,7 @@ Having worked with vue3 for the last months I could not imagine working with the
 
 ### Deploying it up
 
-I just followed the instructions, after reading the NextJS official docs and saw it could be deployed easily into Vercel I just went with that.
+I just followed the instructions, after reading the NextJS official docs and saw it could be deployed easily into Vercel, I just went with that.
 
 ### Adding a CMS
 
