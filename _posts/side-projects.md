@@ -9,18 +9,18 @@ picture_credit: <span>Photo by <a href="https://unsplash.com/@markusspiske?utm_s
 ---
 # Dead portfolio
 
-My portfolio is mostly empty, I have done some side and academic projects in the past but either they are all incomplete or I just get cringy out of thinking of sharing them with anyone, some are still available on my github anyway.
+My portfolio is mostly empty, I have done some side and academic projects in the past but either they are all incomplete or I just get cringy out of thinking of sharing them with anyone, some are still available on my GitHub anyway.
 
 ## New projects to put into my pocket
 
 I came across [this post](https://dev.to/hb/7-fullstack-projects-you-need-to-make-in-2021-bdn) recently and decided to give it a try.
 
-The first project I decided to go with was the blog, as it would allow me to share and document my progress, I had one before but I never posted anything on it, it was powered by Jekyll and github pages.
+The first project I decided to go with was the blog, as it would allow me to share and document my progress, I had one before but I never posted anything on it, it was powered by Jekyll and Github pages.
 
-The second project I will be making will be a chat app, I have been coding for a while and I have only barely coded realtime apps using websockets, so this will be my first documented experience with that kind of stuff.
+The second project I will be making will be a chat app, I have been coding for a while and I have only barely coded realtime apps using WebSockets, so this will be my first documented experience with that kind of stuff.
 
 Another project I found interesting from the list is the video app, it sounds challenging but I don't really see myself using it, instead, the blog and the chat are stuff I will be hopefully interacting with from time to time.
 
-I would also drop in to my list, a c++ game, sure I could use some existing engine to make it, but that's where the fun is! I have done some silly games in the past using c++, SFML and Box2D, this would be a nice way to challenge myself into coding some OpenGL as well.
+I would also drop into my list, a c++ game, sure I could use some existing engine to make it, but that's where the fun is! I have done some silly games in the past using c++, SFML, and Box2D, this would be a nice way to challenge myself into coding some OpenGL as well.
 
 And that's it for now!
