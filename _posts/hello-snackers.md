@@ -15,6 +15,6 @@ Coming up with the domain name was a bit hard, it's very easy to come up with yo
 
 The snacky thing comes from _Brooklyn 99_ TV show, in S01E13, detective Jake Peralta said he gets snacky and I that word stuck to me.
 
-When I'm coding and I get stuck I take a break and have some snacks, and so I called my blog snacky.dev!
+When I'm coding and I get stuck I take a break and have some snacks, and so I called my blog snacky.dev.
 
 I'll be focusing on building some side projects to put into my portfolio which is pretty dead right now.
